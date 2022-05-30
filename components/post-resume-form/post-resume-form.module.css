@@ -1,0 +1,129 @@
+.form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    max-height: 90vh;
+}
+.fieldset {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    width: 90%;
+    max-width: 500px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    /* background-color: rgba(21, 26, 33); */
+}
+.subtitle {
+    text-align: start;
+    width: 90%;
+    max-width: 500px;
+    font-size: 30px;
+}
+.label {
+    margin-right: 5px;
+    text-align: start;
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+    width: 100%;
+}
+.input {
+    border: none;
+    outline: none;
+    background-color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bolder;
+    border-radius: 4px;
+    padding: 5px 3px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid rgb(204, 204, 204);
+}
+.input:focus {
+    border: 1px solid rgb(38, 132, 255);
+}
+.subtitle {
+    margin: 0;
+    color: white;
+    font-weight: bolder;
+}
+.question {
+    padding: 0;
+    width: 90%;
+    max-width: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    outline: none;
+    border: none;
+}
+.doxxed {
+    margin: 0;
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.green {
+    background-color: #50c878;
+}
+.red {
+    background-color: #FD4D4D;
+}
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+.button {
+    color: white;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    font-weight: bolder;
+    border-radius: 4px;
+    padding: 5px;
+}
+.button:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+.textarea {
+    font-size: 20px;
+    font-weight: bolder;
+    border-radius: 4px;
+    width: 90%;
+    max-width: 500px;
+    min-height: 100px;
+    /* padding: 10% 0; */
+    outline: none;
+    border: 1px solid rgb(204, 204, 204);
+}
+.textarea:focus {
+    border: 1px solid rgb(38, 132, 255);
+}
+.select {
+    width: 90%;
+    max-width: 500px;
+}
+.submit {
+    width: 90%;
+    max-width: 500px;
+    outline: none;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #50c878;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.submit:hover {
+    cursor: pointer;
+}
