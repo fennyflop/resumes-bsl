@@ -22,7 +22,7 @@ export default async function handler(req: NextApiRequest,res: NextApiResponse<T
         code: code.toString(),
         'grant_type': 'authorization_code',
         'client_id': process.env.CLIENT_ID,
-        'redirect_uri': 'https://resumes-bsl.vercel.app/',
+        'redirect_uri': 'https://resumes-bsl.vercel.app',
         'client_secret': process.env.CLIENT_SECRET,
       });
       
