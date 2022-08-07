@@ -63,7 +63,7 @@ const Home: NextPage = () => {
     <>
       {/* <Header /> */}
     <main className={styles.main}>
-      <p className={styles.welcome}>This is a mineable viable product for the blocksmith resume builder (it still works and has a functioning backend! Check out the 'post' and find 'pages'). Contact me at fennyflop@gmail.com for any ideas or if you want to design :)</p>
+      <p className={styles.welcome}>This is a mineable viable product for the blocksmith resume builder (it still works and has a functioning backend! Check out the post and find pages). Contact me at fennyflop@gmail.com for any ideas or if you want to design :)</p>
     </main>
     </>
   )
