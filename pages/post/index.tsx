@@ -19,7 +19,8 @@ const Post = () => {
                     <Link href="https://discord.com/api/oauth2/authorize?client_id=978918766408790056&redirect_uri=https%3A%2F%2Fresumes-bsl.vercel.app%2F&response_type=code&scope=identify%20guilds.members.read"><a className={styles.link}>Connect Discord</a></Link>
                 </div>
             </section>
-            }
+            } 
+            {/* d */}
         </main>
     );
 }
