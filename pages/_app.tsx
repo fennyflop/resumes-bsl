@@ -21,7 +21,7 @@ function MyApp({ Component, pageProps }: AppProps) {
 
     localStorage.setItem("refresh_token", refresh_token);
 
-    const { data } = await axios.get('https:///api/v10/users/@me', {headers: {'Authorization': `${token_type} ${access_token}`}});
+    const { data } = await axios.get('https://discord.com/api/v10/users/@me', {headers: {'Authorization': `${token_type} ${access_token}`}});
     const { data: guild } = await axios.get(`https://discord.com/api/v10/users/@me/guilds/${BLOCKSMITH_LABS_ID}/member`, {headers: {'Authorization': `${token_type} ${access_token}`}}) || false;
     const authorized: boolean = guild.roles.find((role: string) => role === DAOSMITH_ROLE_ID) ? true : false;
     setUser({username: data.username, avatar: data.avatar, id: data.id, access_token, authorized});
