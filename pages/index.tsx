@@ -62,9 +62,9 @@ const Home: NextPage = () => {
   return (
     <>
       {/* <Header /> */}
-    {/* <main className={styles.main}>
-     <Link className={styles.link} href="https://discord.com/api/oauth2/authorize?client_id=978918766408790056&redirect_uri=http%3A%2F%2Flocalhost%3A3000&response_type=code&scope=identify%20guilds.members.read">discord auth</Link>
-    </main> */}
+    <main className={styles.main}>
+      <p className={styles.welcome}>This is a mineable viable product for the blocksmith resume builder (it still works and has a functioning backend! Check out the 'post' and find 'pages'). Contact me at fennyflop@gmail.com for any ideas or if you want to design :)</p>
+    </main>
     </>
   )
 }

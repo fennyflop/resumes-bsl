@@ -41,7 +41,7 @@ const Header = () => {
                         <Image className={styles.exit} width="32" height="32" src="/exit.svg" onClick={logout} />
                     </>
                     :
-                    <a href="https://discord.com/api/oauth2/authorize?client_id=978918766408790056&redirect_uri=http%3A%2F%2Flocalhost%3A3000&response_type=code&scope=identify%20guilds.members.read" className={styles.authorize}>Connect Discord</a>
+                    <a href="https://discord.com/api/oauth2/authorize?client_id=978918766408790056&redirect_uri=https%3A%2F%2Fresumes-bsl.vercel.app%2F&response_type=code&scope=identify%20guilds.members.read" className={styles.authorize}>Connect Discord</a>
                 }   
             </div>
 
