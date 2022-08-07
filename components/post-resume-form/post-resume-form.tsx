@@ -102,8 +102,8 @@ const PostResumeForm = () => {
         postResume({...values, payments: paymentMethods, keywords, doxxed})
     }
 
-    const handleSelectKeywords = (e) => setKeywords(e.map((element) => element.value));
-    const handleSelectPaymentMethods = (e) => setPaymentMethods(e.map((element) => element.value));
+    const handleSelectKeywords = (e: any) => setKeywords(e.map((element: any) => element.value));
+    const handleSelectPaymentMethods = (e: any) => setPaymentMethods(e.map((element: any) => element.value));
 
     return (
         <form className={styles.form} onSubmit={handleSubmit}>
@@ -126,6 +126,7 @@ const PostResumeForm = () => {
                 :
                 ''
             }
+            {/* @ts-ignore */}
             <textarea className={styles.textarea} placeholder="About me" value={values.description} onChange={handleChange} name="description" />
             <h3 className={styles.subtitle}>Working Fields & Payement</h3>
             <div className={styles.select}>
